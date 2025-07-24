@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36127.28 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.EasyMqtt", "src\GHLearning.EasyMqtt\GHLearning.EasyMqtt.csproj", "{9AFBD3AC-23D4-4590-863A-F56DAB857733}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.EasyMqtt.CollectorCenter", "src\GHLearning.EasyMqtt.CollectorCenter\GHLearning.EasyMqtt.CollectorCenter.csproj", "{F3EBF0E9-4951-4FF7-9C61-43FF6C5C2AF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.EasyMqtt.Sensor", "src\GHLearning.EasyMqtt.Sensor\GHLearning.EasyMqtt.Sensor.csproj", "{7151A739-C610-4FDC-9796-C5AA04257FC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AFBD3AC-23D4-4590-863A-F56DAB857733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AFBD3AC-23D4-4590-863A-F56DAB857733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AFBD3AC-23D4-4590-863A-F56DAB857733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AFBD3AC-23D4-4590-863A-F56DAB857733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3EBF0E9-4951-4FF7-9C61-43FF6C5C2AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3EBF0E9-4951-4FF7-9C61-43FF6C5C2AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3EBF0E9-4951-4FF7-9C61-43FF6C5C2AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3EBF0E9-4951-4FF7-9C61-43FF6C5C2AF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7151A739-C610-4FDC-9796-C5AA04257FC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7151A739-C610-4FDC-9796-C5AA04257FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7151A739-C610-4FDC-9796-C5AA04257FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7151A739-C610-4FDC-9796-C5AA04257FC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9AFBD3AC-23D4-4590-863A-F56DAB857733} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F3EBF0E9-4951-4FF7-9C61-43FF6C5C2AF4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{7151A739-C610-4FDC-9796-C5AA04257FC1} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D939A36A-4CBB-4A9D-A7A4-5F7C88500B4F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+@GHLearning.EasyMqtt.Sensor_HostAddress = http://localhost:5161
+
+GET {{GHLearning.EasyMqtt.Sensor_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
